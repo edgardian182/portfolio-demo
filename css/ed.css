@@ -1,0 +1,186 @@
+@media (max-width: 600px) {
+  section.container {
+    width: 550px;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* ---- HOME SECTION ----*/
+.home-wrapper {
+  background: url('../images/background.jpg') no-repeat center;
+  background-size: cover;
+  height: 900px;
+}
+
+header {
+  text-align: center;
+  width: 100%;
+  background: rgba(12,36,67,0.9);
+  padding: 10px 0;
+  position: fixed;
+  z-index: 1;
+}
+
+header nav {
+  margin: 10px 0;
+}
+
+header nav a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  margin-left: 10px;
+  padding: 10px 15px;
+}
+
+header nav a.active {
+  background-color: rgb(117,192,217);
+  border-radius: 5px;
+}
+
+#home {
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+/*font-family: 'Montserrat Alternates', sans-serif;*/
+}
+
+#home #datos {
+  line-height: 0.3;
+  width: 280px;
+  color: rgb(12,36,67);
+}
+
+#home #datos #habilidades {
+  line-height: 1;
+  word-spacing: -1.5px;
+}
+
+#home #info {
+  margin-top: 300px;
+  margin-bottom: 102px;
+  border: 0;
+  transition: all 0.8s;
+  background: white;
+  padding: 0;
+}
+
+#home #info img {
+  width: 150px;
+}
+
+#home #info:hover {
+  transform: translate(-170px, 0px);
+}
+
+#home #info #datos {
+  visibility: hidden;
+}
+
+#home #info:hover #datos {
+  visibility: visible;
+  transform: translate(220px, -145px);
+}
+/* ---- HOME SECTION END ----*/
+
+/* ---- PORTFOLIO SECTION ----*/
+#portfolio {
+  background-color: rgb(117,192,217);
+  padding: 80px;
+  width: 100%;
+}
+
+#portfolio .box {
+  width: 31%;
+  margin: 0.3%;
+  height: 31%;
+  display: inline-block;
+  padding: 10px;
+  position: relative;
+}
+
+#portfolio .box .desarrollo {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  padding: 115px;
+  display: none;
+  background: black;
+  width: 100%;
+  color: white;
+}
+
+#portfolio .box:hover img {
+opacity: 0.01;
+}
+
+#portfolio .box:hover .desarrollo {
+  display: inline-block;
+}
+
+#portfolio .box:hover {
+  background: rgba(40,40,40,1);
+}
+
+#portfolio .box img {
+  width: 100%;
+  height: 270px;
+}
+
+#contact {
+  text-align: center;
+  padding: 80px;
+}
+
+#contact h2 {
+margin-bottom: 80px;
+font-size: 30px;
+}
+
+#contact textarea {
+  margin: 20px 0;
+  padding: 20px;
+  width: 400px;
+}
+
+#contact button {
+  background-color: rgb(12,36,67);
+  padding: 20px 40px;
+  border-color: rgb(12,36,67);
+  border-radius: 3px;
+  color: white;
+  font-size: 18px;
+  line-height: 1;
+  font-weight: bold;
+}
+
+#contact input {
+  padding: 20px;
+  width: 400px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+
+/*.scroll {
+  background: rgba(12,36,67,0.9);
+  position: relative;
+  font-size: 40px;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}*/
+
+
+.container {
+  width: 992px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
